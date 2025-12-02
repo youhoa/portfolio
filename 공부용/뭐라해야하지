@@ -1,0 +1,1025 @@
+let age = 34:
+VM141:1 Uncaught SyntaxError: Unexpected token ':'Understand this error
+let age = 34;
+undefined
+console.log(age);
+VM271:1 34
+undefined
+let age:
+VM299:1 Uncaught SyntaxError: Unexpected token ':'Understand this error
+let age;
+undefined
+age=37
+37
+console.log(age)
+VM448:1 37
+undefined
+var age = 27;
+VM479:1 Uncaught SyntaxError: Identifier 'age' has already been declared
+    at <anonymous>:1:1
+(anonymous) @ VM479:1Understand this error
+var aage= 33;
+undefined
+console.log(aage)
+VM619:1 33
+undefined
+const a;
+VM642:1 Uncaught SyntaxError: Missing initializer in const declarationUnderstand this error
+const school ="명지대학교";
+undefined
+console.log(school);
+VM815:1 명지대학교
+undefined
+let a;
+undefined
+let a=1;
+undefined
+console.log(a)
+VM930:1 1
+undefined
+let integer = 1 //정수
+undefined
+let integer = 1; //정수
+undefined
+let float = 10.5 //소수
+undefined
+let negative = -20; //음수
+undefined
+let float = 10.5; //소수
+undefined
+console.log(integer
+VM1420:1 Uncaught SyntaxError: missing ) after argument listUnderstand this error
+console.log(integer)
+VM1428:1 1
+undefined
+console.log(float)
+VM1503:1 10.5
+undefined
+console.log(negative)
+VM1603:1 -20
+undefined
+let singleQuote = 'hello';
+undefined
+console.log(singleQuote);
+VM1799:1 hello
+undefined
+let doubleQuote = 'helloGoodtoSeeYouAgain';
+undefined
+console.log(doubleQuote)
+VM2093:1 helloGoodtoSeeYouAgain
+undefined
+let templateLiteral = `$P[singleQoute]`;
+undefined
+let templateLiteral = `${singleQoute} black`;
+VM2213:1 Uncaught ReferenceError: singleQoute is not defined
+    at <anonymous>:1:23
+(anonymous) @ VM2213:1Understand this error
+let templateLiteral = `${singleQoute} black`;
+VM2221:1 Uncaught ReferenceError: singleQoute is not defined
+    at <anonymous>:1:23
+(anonymous) @ VM2221:1Understand this error
+let templateLiteral = `${singleQuote} black`;
+undefined
+console.log(templateLiteral);
+VM2317:1 hello black
+undefined
+let isTrue=true;
+undefined
+console.log(true);
+VM2449:1 true
+undefined
+let isFalse=false;
+undefined
+console.log(isFlase);
+VM2626:1 Uncaught ReferenceError: isFlase is not defined
+    at <anonymous>:1:13
+(anonymous) @ VM2626:1Understand this error
+console.log(isFalss);
+VM2660:1 Uncaught ReferenceError: isFalss is not defined
+    at <anonymous>:1:13
+(anonymous) @ VM2660:1Understand this error
+console.log(isFalse);
+VM2671:1 false
+undefined
+let black={
+    name:"canes",
+    age:30,
+    isMarried:false,
+};
+undefined
+console.log(name)
+VM2911:1 
+undefined
+consloe.log(age)
+VM2974:1 Uncaught ReferenceError: consloe is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM2974:1Understand this error
+console.log(name);
+VM2980:1 
+undefined
+consloe.log(age);
+VM2986:1 Uncaught ReferenceError: consloe is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM2986:1Understand this error
+console.log(black.name)
+VM3002:1 canes
+undefined
+consloe.log(black.age);
+VM3021:1 Uncaught ReferenceError: consloe is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM3021:1Understand this error
+console.log(black.age);
+VM3031:1 30
+undefined
+console.log(black.isMarried)
+VM3124:1 false
+undefined
+let newJeans = ["Minji","Haerin","Honey"};
+VM3213:1 Uncaught SyntaxError: Unexpected token '}'Understand this error
+let newJeans = ["Minji","Haerin","Honey"];
+undefined
+console.log(newJeans)
+VM3296:1 (3) ['Minji', 'Haerin', 'Honey']
+undefined
+console.log(newJeans[0])
+VM3419:1 Minji
+undefined
+console.log(newJeans[1])
+VM3426:1 Haerin
+undefined
+console.log(newJeans[2])
+VM3433:1 Honey
+undefined
+let emptyValue = null;
+undefined
+console.log(emptyValue)
+VM3564:1 null
+undefined
+console.log(type.emptyValue)
+VM3699:1 Uncaught ReferenceError: type is not defined
+    at <anonymous>:1:13
+(anonymous) @ VM3699:1Understand this error
+console.log(typeof emptyValue)
+VM3722:1 object
+undefined
+//console.log(typeof emptyValue)를 쳤을 때 나오는 object는 버그이다.
+undefined
+let notAssigned;
+undefined
+console.log(notAssigned)
+VM3977:1 undefined
+undefined
+let notAssigned= 1;
+undefined
+
+let num =1;
+undefined
+let str ="2";
+undefined
+console.log(num+str)
+VM242:1 12
+undefined
+let boolex = true;
+undefined
+let num = 3;
+undefined
+console.log(boolex+num);
+VM435:1 4
+undefined
+let str ="123";
+undefined
+let num=456
+undefined
+console.log(str+num)
+VM605:1 123456
+undefined
+let str = "123";
+undefined
+console.log(Number(str)+num)
+VM805:1 579
+undefined
+console.log(5+3)
+VM881:1 8
+undefined
+console.log(5-3)
+VM945:1 2
+undefined
+console.log(5*3)
+VM1009:1 15
+undefined
+console.log(10/2)
+VM1081:1 5
+undefined
+console.log(10%3)
+VM1170:1 1
+undefined
+let a = 3
+undefined
+++a
+4
+a++
+4
+let b = 4;
+undefined
+--b
+3
+b--
+3
+console.log(5=="5")
+VM1331:1 true
+undefined
+console.log(5==="5");
+VM1409:1 false
+undefined
+console.log(5!=5);
+VM1463:1 false
+undefined
+console.log(5!==5);
+VM1535:1 false
+undefined
+console.log(5!=="5");
+VM1546:1 true
+undefined
+console.log(3>1)&&(5<2)
+VM1678:1 true
+undefined
+console.log(3>1)&&(5<2);
+VM1684:1 true
+undefined
+console.log(3>1)||(5<2)
+VM1743:1 true
+false
+a+=10
+15
+let answer - 2
+VM1796:1 Uncaught SyntaxError: Unexpected token '-'Understand this error
+let answer = 2;
+undefined
+answer+=4
+//answer=2+4;
+6
+answer-=1'
+VM1900:1 Uncaught SyntaxError: Invalid or unexpected tokenUnderstand this error
+answer-=1;
+5
+answer*=3
+15
+answer/=5
+3
+let num =10;
+undefined
+if(num>10){
+    console.log("num은 10보다 큽니다.");
+}else if(num==10){
+    console.log("num은 10과 같습니다");
+}else{
+    console.log("num은 10보다 작습니다.")
+}
+VM2372:4 num은 10과 같습니다
+undefined
+let fruit = "apple";
+undefined
+swich(fruit
+VM2479:1 Uncaught SyntaxError: missing ) after argument listUnderstand this error
+swich(fruit){
+    case "banana";
+        console.log("Banana is 1000KRW:");
+        break;
+    case "apple";
+        console.log("apple is 500KRW");
+        break;
+    case "orange";
+        console.log("orange is 800KRW");
+        break;
+    default;
+        console.log("Unknown fruit");
+}
+VM2886:1 Uncaught SyntaxError: Unexpected token '{'Understand this error
+swich(fruit){
+    case "banana";
+        console.log("Banana is 1000KRW:");
+        break;
+    case "apple";
+        console.log("apple is 500KRW");
+        break;
+    case "orange";
+        console.log("orange is 800KRW");
+        break;
+    default;
+        console.log("Unknown fruit");
+    
+}
+VM2890:1 Uncaught SyntaxError: Unexpected token '{'
+
+let count = 0;
+while(count<5){
+    console.log(count);
+    count++;
+}
+VM221:3 0
+VM221:3 1
+VM221:3 2
+VM221:3 3
+VM221:3 4
+4
+let count = 0;
+do{
+    console.log(count);
+    count++;
+}while(count<0);
+VM377:3 0
+0
+let count = 2;
+do{
+    console.log(count);
+    count++;
+}while(count<5);
+VM556:3 2
+VM556:3 3
+VM556:3 4
+4
+function hello(){
+    
+}
+//함수정의
+
+hello();
+//함수호출
+undefined
+function hello(){
+    console.log("안녕");
+}
+undefined
+hello()
+VM902:2 안녕
+undefined
+function hello(x){
+    console.log("안녕2");
+    console.log(x);
+}
+undefined
+hello(3)
+VM1099:2 안녕2
+VM1099:3 3
+undefined
+let result = hello(3)
+VM1099:2 안녕2
+VM1099:3 3
+undefined
+console.log(result);
+VM1300:1 undefined
+undefined
+function hello(x){
+    console.log("안녕2");
+    console.log(x);
+    return x;
+}
+undefined
+let result = hello(3)
+VM1326:2 안녕2
+VM1326:3 3
+undefined
+console.log(result);
+VM1474:1 3
+undefined
+function hello(){
+    console.log("hello");
+}
+//함수 정의문
+
+hello();
+//함수호출문
+VM1856:2 hello
+undefined
+hello();
+function hello(){
+    console.log("hello");
+}
+VM1980:3 hello
+undefined
+const hello = function(){
+    console.log("hello");
+}
+
+hello();
+VM2117:1 Uncaught SyntaxError: Identifier 'hello' has already been declaredUnderstand this error
+const hello2 = function(){
+    console.log("hello2");
+}
+
+hello2();
+VM2128:2 hello2
+undefined
+hello3();
+const hello3 = function(){
+    console/log("hello3");
+}
+VM2262:1 Uncaught ReferenceError: hello3 is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM2262:1Understand this error
+const person = {
+    name: "hoa",
+    age : 5,
+    greet : function(){
+        console.log("hello");
+    }
+}
+undefined
+person.name
+'hoa'
+person.age
+5
+person.greet
+ƒ (){
+        console.log("hello");
+    }
+//난 이거 왜 이따구로 뜨지? 설명에 맞게 했는데 ;; 모르겟다..
+undefined
+//아 괄호 안넣었다
+undefined
+ㅋㅋㅋㅋㅋㅋㅋ 바보
+VM2714:1 Uncaught SyntaxError: Unexpected identifier '바보'Understand this error
+person.greet()
+VM2412:5 hello
+undefined
+function showThis(){
+    console.log(this);
+}
+undefined
+showThis();
+VM2829:2 Window {0: Window, window: Window, self: Window, document: document, name: '', location: Location, …}
+undefined
+const person = {
+    name: "hoa",
+    age : 5,
+    greet : function(){
+        console.log(this.name);
+    }
+}
+undefined
+person.greet();
+VM2940:5 hoa
+undefined
+function person(name){
+    this.name=name;   
+}
+const p = new Person("xouxoa");
+console.log(p.name)
+VM3251:1 Uncaught SyntaxError: Identifier 'person' has already been declared
+    at <anonymous>:1:1
+(anonymous) @ VM3251:1Understand this error
+function person(name){
+    this.name=name;   
+}
+const p = new Person("xouxoa");
+console.log(p.name);
+VM3257:1 Uncaught SyntaxError: Identifier 'person' has already been declared
+    at <anonymous>:1:1
+(anonymous) @ VM3257:1Understand this error
+function Person(name){
+    this.name=name;   
+}
+const p = new Person("xouxoa");
+console.log(p.name);
+VM3262:5 xouxoa
+undefined
+function Animal(name){
+    this.name=name;
+}
+undefined
+Animal.prototype.speak = function()[
+    console.log(this.name);
+]
+const dog = new Animal("dog");
+VM3621:1 Uncaught SyntaxError: Unexpected token '['Understand this error
+Animal.prototype.speak = function(){
+    console.log(this.name);
+}
+const dog = new Animal("dog");
+ƒ (){
+    console.log(this.name);
+}
+dog.speak();
+VM3628:2 dog
+undefined
+const fruits = ["사과","바나나","오렌지"];
+undefined
+console.log(fruits[0]);
+VM4048:1 사과
+undefined
+console.log(fruits[1]);
+VM4055:1 바나나
+undefined
+console.log(fruits[2]);
+VM4064:1 오렌지
+undefined
+console.log(fruits[3]);
+VM4077:1 undefined
+undefined
+const person = {
+    name : "호아",
+    age : 5,
+    city : "서울",
+}
+undefined
+console.log(person.name);
+VM4270:1 호아
+undefined
+console.log(person.age);
+VM4294:1 5
+undefined
+console.log(person.city);
+VM4319:1 서울
+undefined
+const dogs - ["비숑", "포메", "푸들", "시바견", "말티즈"];
+
+VM4435:1 Uncaught SyntaxError: Missing initializer in const declarationUnderstand this error
+const dogs - ["비숑", "포메", "푸들", "시바견", "말티즈"];
+
+VM4437:1 Uncaught SyntaxError: Missing initializer in const declarationUnderstand this error
+const dogs =\ ["비숑", "포메", "푸들", "시바견", "말티즈"];
+
+VM4442:1 Uncaught SyntaxError: Invalid or unexpected tokenUnderstand this error
+const dogs = ["비숑", "포메", "푸들", "시바견", "말티즈"];
+
+undefined
+console.log(dogs[1])
+VM4517:1 포메
+undefined
+dogs[2]= "허스키";
+'허스키'
+console.log(dogs)
+VM4637:1 (5) ['비숑', '포메', '허스키', '시바견', '말티즈']
+undefined
+dogs.pop();
+'말티즈'
+console.log(dogs);
+VM4759:1 (4) ['비숑', '포메', '허스키', '시바견']
+undefined
+delete dogs."허스키"
+VM4821:1 Uncaught SyntaxError: Unexpected stringUnderstand this error
+delete dogs.허스키;
+true
+console.log(dogs);
+VM4938:1 (4) ['비숑', '포메', '허스키', '시바견']
+undefined
+dogs.splice(2,1);
+['허스키']
+console.log(dogs);
+VM5083:1 (3) ['비숑', '포메', '시바견']
+undefined
+delete dogs[1];
+true
+console.log(dogs);
+VM5213:1 (3) ['비숑', empty, '시바견']
+undefined
+let numbers = [1,2,3,4,5];
+let filteredNumbers = number.filter(num=> num ==3);
+console.log(filteredNumbers);
+VM5452:2 Uncaught ReferenceError: number is not defined
+    at <anonymous>:2:23
+(anonymous) @ VM5452:2Understand this error
+let numbers = [1,2,3,4,5];
+let filteredNumbers = numbers.filter(num=> num ==3);
+console.log(filteredNumbers);
+VM5458:3 [3]
+undefined
+numbers.push[6];
+undefined
+numbers.push(6);
+6
+console.log(numbers);
+VM5632:1 (6) [1, 2, 3, 4, 5, 6]
+undefined
+numbers.pop();
+6
+console.log(numbers);
+VM5773:1 (5) [1, 2, 3, 4, 5]
+undefined
+function divideNumbers(){
+    try{
+        let number = 10;
+        let zero = 0;
+    }
+}
+VM5893:5 Uncaught SyntaxError: Missing catch or finally after tryUnderstand this error
+function divideNumbers(){
+    try{
+        let number = 10;
+        let zero = 0;
+    
+
+        if(zero===0){
+            throw new Error("0으로는 나눌 수 없습니다.")
+        }
+    let result = number / zero;
+        console.log("결과: "+result);
+    }catch(e){
+        console.log("문제가 생겼어요."+e.message);
+    }finally{
+        console.log("프로그램이 끝났어요.");
+    }
+}
+divideNumbers();
+VM6441:13 문제가 생겼어요.0으로는 나눌 수 없습니다.
+VM6441:15 프로그램이 끝났어요.
+undefined
+function divideNumbers(){
+    try{
+        let number = 10;
+        let zero = 0;
+    
+
+        // if(zero===0){
+        //     throw new Error("0으로는 나눌 수 없습니다.")
+        // }
+    let result = number / zero;
+        console.log("결과: "+result);
+    }catch(e){
+        console.log("문제가 생겼어요."+e.message);
+    }finally{
+        console.log("프로그램이 끝났어요.");
+    }
+}
+divideNumbers();
+VM6450:11 결과: Infinity
+VM6450:15 프로그램이 끝났어요.
+undefined
+document.querySelector(img);
+VM6842:1 Uncaught ReferenceError: img is not defined
+    at <anonymous>:1:24
+(anonymous) @ VM6842:1Understand this error
+document.querySelector("img");
+null
+document.querySelector("img").style.backgroundColor = "green"
+
+funtion orderfood(food,callback){
+    console.log(`${food} 주문을 시작해요.`);
+    setTimeout(funtion(){
+        console.log(`${food} 가 배달되었습니다.`);
+        callback();
+    },3000);
+}
+
+orderfood('피자',function(){
+    console.log("맛있게 먹어요.");
+});
+VM581:1 Uncaught SyntaxError: Unexpected identifier 'orderfood'Understand this error
+funtion orderFood(food,callback){
+    console.log(`${food} 주문을 시작해요.`);
+    setTimeout(funtion(){
+        console.log(`${food} 가 배달되었습니다.`);
+        callback();
+    },3000);
+}
+
+orderFood('피자',function(){
+    console.log("맛있게 먹어요.");
+});
+VM592:1 Uncaught SyntaxError: Unexpected identifier 'orderFood'Understand this error
+funtion orderFood(food,callback){
+    console.log(`${food} 주문을 시작해요.`);
+    setTimeout(funtion(){
+        console.log(`${food} 가 배달되었습니다.`);
+        callback();
+    },3000);
+}
+
+orderFood('피자',function(){
+    console.log("맛있게 먹어요.");
+});
+VM598:1 Uncaught SyntaxError: Unexpected identifier 'orderFood'Understand this error
+function orderFood(food,callback){
+    console.log(`${food} 주문을 시작해요.`);
+    setTimeout(funtion(){
+        console.log(`${food} 가 배달되었습니다.`);
+        callback();
+    },3000);
+}
+
+orderFood('피자',function(){
+    console.log("맛있게 먹어요.");
+});
+VM657:3 Uncaught SyntaxError: missing ) after argument listUnderstand this error
+function orderFood(food,callback){
+    console.log(`${food} 주문을 시작해요.`);
+    setTimeout(function(){
+        console.log(`${food} 가 배달되었습니다.`);
+        callback();
+    },3000);
+}
+
+orderFood('피자',function(){
+    console.log("맛있게 먹어요.");
+});
+VM662:2 피자 주문을 시작해요.
+undefined
+VM662:4 피자 가 배달되었습니다.
+VM662:10 맛있게 먹어요.
+const orderFood = new Promise((resolve,reject)=>{
+    const isDelivered = true;
+    if(isDelivered==true){
+        resolve("음식이 성공하였습니다.");
+    }else{
+        reject("배달이 실패했어요!");
+    }
+}
+
+                               
+VM1033:8 Uncaught SyntaxError: missing ) after argument listUnderstand this error
+const orderFood = new Promise((resolve,reject)=>{
+    const isDelivered = true;
+    if(isDelivered==true){
+        resolve("음식이 성공하였습니다.");
+    }else{
+        reject("배달이 실패했어요!");
+    }
+});
+
+                               
+VM1039:1 Uncaught SyntaxError: Identifier 'orderFood' has already been declaredUnderstand this error
+const orderFood2 = new Promise((resolve,reject)=>{
+    const isDelivered = true;
+    if(isDelivered==true){
+        resolve("음식이 성공하였습니다.");
+    }else{
+        reject("배달이 실패했어요!");
+    }
+});
+
+                               
+undefined
+orderFood2.then((message)=>{
+    console.log(message);
+    console.log("맛있게드셈");
+}).catch(error)=>{
+    console.log(error);
+})
+
+VM1511:4 Uncaught SyntaxError: Malformed arrow function parameter listUnderstand this error
+orderFood2.then((message)=>{
+    console.log(message);
+    console.log("맛있게드셈");
+}).catch(error)=>{
+    console.log(error);
+})
+
+VM1515:4 Uncaught SyntaxError: Malformed arrow function parameter listUnderstand this error
+orderFood2
+    .then((message) => {
+        console.log(message);
+        console.log("맛있게드셈");
+    })
+    .catch((error) => {
+        console.log(error);
+    });
+VM1522:3 음식이 성공하였습니다.
+VM1522:4 맛있게드셈
+Promise {<fulfilled>: undefined}
+const orderFood3 = new Promise((resolve,reject)=>{
+    const isDelivered = false;
+    if(isDelivered==true){
+        resolve("음식이 성공하였습니다.");
+    }else{
+        reject("배달이 실패했어요!");
+    }
+});
+
+                               
+undefined
+VM1542:6 Uncaught (in promise) 배달이 실패했어요!
+(anonymous) @ VM1542:6
+(anonymous) @ VM1542:1Understand this error
+const orderFood2 = new Promise((resolve,reject)=>{
+    const isDelivered = false;
+    if(isDelivered==true){
+        resolve("음식이 성공하였습니다.");
+    }else{
+        reject("배달이 실패했어요!");
+    }
+});
+
+                               
+undefined
+VM1558:6 Uncaught (in promise) 배달이 실패했어요!
+(anonymous) @ VM1558:6
+(anonymous) @ VM1558:1Understand this error
+const orderFood3 = new Promise((resolve,reject)=>{
+    const isDelivered = false;
+    if(isDelivered==true){
+        resolve("음식이 성공하였습니다.");
+    }else{
+        reject("배달이 실패했어요!");
+    }
+});
+
+                               
+undefined
+const orderFood4 = new Promise((resolve,reject)=>{
+    const isDelivered = false;
+    if(isDelivered==true){
+        resolve("음식이 성공하였습니다.");
+    }else{
+        reject("배달이 실패했어요!");
+    }
+});
+
+                               
+undefined
+VM1566:6 Uncaught (in promise) 배달이 실패했어요!
+(anonymous) @ VM1566:6
+(anonymous) @ VM1566:1Understand this error
+orderFood3
+    .then((message) => {
+        console.log(message);
+        console.log("맛있게드셈");
+    })
+    .catch((error) => {
+        console.log(error);
+    });
+VM1576:7 배달이 실패했어요!
+Promise {<fulfilled>: undefined}
+function deliverFood(){
+    retrun new Promise((resolve) => {
+        setTimeout(()=>{
+            resolve("음식이 배달됨 수고");
+        }.3000);
+    });
+}
+VM1805:2 Uncaught SyntaxError: Unexpected token 'new'Understand this error
+function deliverFood(){
+    return new Promise((resolve) => {
+        setTimeout(()=>{
+            resolve("음식이 배달됨 수고");
+        }.3000);
+    });
+}
+VM1816:5 Uncaught SyntaxError: missing ) after argument listUnderstand this error
+function deliverFood(){
+    return new Promise((resolve) => {
+        setTimeout(()=>{
+            resolve("음식이 배달됨 수고");
+        }.3000);
+    });
+}
+VM1824:5 Uncaught SyntaxError: missing ) after argument listUnderstand this error
+function deliverFood(){
+    return new Promise((resolve) => {
+        setTimeout(()=>{
+            resolve("음식이 배달됨 수고");
+        },3000);
+    });
+}
+undefined
+async function orderAndEat(){
+    console.log("음식을 주문했어요!");
+    const message = await deliverFood();
+    console.log(message)
+    console.log("이제 음식을 먹어요!");
+}
+undefined
+orderAndEat();
+VM2080:2 음식을 주문했어요!
+Promise {<pending>}
+VM2080:4 음식이 배달됨 수고
+VM2080:5 이제 음식을 먹어요!
+
+fetch("https://korean-advice-open-api.vercel.app/api/advice",{
+    method:'GET'
+});
+Promise {<pending>}
+fetch("https://korean-advice-open-api.vercel.app/api/advice",{
+    method:'GET'
+}).then(response =>{
+    if(!response.ok){
+        throw new Error ("네트워크 에러터짐");
+    }
+    return response.json();
+}).then(deta =>{
+    console.log(data);
+}).catch(error=> console.error("fetch error:"+error));
+Promise {<pending>}
+VM430:10 fetch error:ReferenceError: data is not defined
+(anonymous) @ VM430:10
+Promise.catch
+(anonymous) @ VM430:10
+fetch("https://korean-advice-open-api.vercel.app/api/advice",{
+    method:'GET'
+}).then(response =>{
+    if(!response.ok){
+        throw new Error ("네트워크 에러터짐");
+    }
+    return response.json();
+}).then(deta =>{
+    console.log(deta);
+}).catch(error=> console.error("fetch error:"+error));
+
+Promise {<pending>}
+VM444:9 {author: '아인슈타인', authorProfile: '물리학자, 상대성이론의 창시자', message: '삶을 사는 방식에는 오직 두 가지가 있다. 하나는 모든 것을 기적이라고 믿는 것, 그리고 다른 하나는 기적은 없다고 믿는 것이다.'}
+fetch("https://korean-advice-open-api.vercel.app/api/advice",{method:'POST'
+                                                             headers:{
+                                                                'Content-Type' : 'application/json'
+                                                             },
+                                                            body:JSON.stringify({name:"hoa",
+                                                                                age:5,
+                                                                                });
+                                                            });
+VM768:2 Uncaught SyntaxError: Unexpected identifier 'headers'
+
+var a =1; //전역스코프
+function hello(){
+    var b =2;
+    if(true){
+        lec c = 3;
+        console.log(a,b,c);
+    }
+}
+VM588:5 Uncaught SyntaxError: Unexpected identifier 'c'Understand this error
+var a =1; //전역스코프
+function hello(){
+    var b =2;
+    if(true){
+        let c = 3;
+        console.log(a,b,c);
+    }
+}
+undefined
+var a =1; //전역스코프
+function hello(){
+    var b =2;
+    if(true){
+        let c = 3;
+        console.log(a,b,c);
+    }
+}
+hello();
+VM626:6 1 2 3
+undefined
+var a =1; //전역스코프
+function hello(){
+    var b =2; //함수스코프
+    if(true){
+        let c = 3; //블록스코프
+        console.log(a,b,c);
+    }
+    console.log(c);
+}
+hello();
+VM862:6 1 2 3
+VM862:8 Uncaught ReferenceError: c is not defined
+    at hello (<anonymous>:8:17)
+    at <anonymous>:10:1
+hello @ VM862:8
+(anonymous) @ VM862:10Understand this error
+var a =1; //전역스코프
+function hello(){
+    var b =2; //함수스코프
+    if(true){
+        let c = 3; //블록스코프
+        console.log(a,b,c);
+    }
+    console.log(c);
+}
+console.log(b);
+
+hello();
+VM900:10 Uncaught ReferenceError: b is not defined
+    at <anonymous>:10:13
+(anonymous) @ VM900:10Understand this error
+const hello = function(){};
+// 호이스팅이 적용이 안되기 때문에 항상 함수가 최상단에 위치해야 데이터가
+//자바스크립트에서는 위에서 아래로 순차적으로 흐르기 떄문에 위 hello가 출력도 되고 접근 가능
+VM1392:1 Uncaught SyntaxError: Identifier 'hello' has already been declaredUnderstand this error
+const hello2 = function(){};
+// 호이스팅이 적용이 안되기 때문에 항상 함수가 최상단에 위치해야 데이터가
+//자바스크립트에서는 위에서 아래로 순차적으로 흐르기 떄문에 위 hello가 출력도 되고 접근 가능
+undefined
+console.log(hello2);
+VM1476:1 ƒ (){}
+undefined
+console.log(hello4);
+function hello4(){
+console.log("hello");
+}
+VM1713:1 ƒ hello4(){
+console.log("hello");
+}
+undefined
+var a = 10;
+undefined
+console.log(a);
+VM1806:1 10
+undefined
+console.log(a);
+var a = 10;
+VM1836:1 10
+undefined
+console.log(x);
+var a = 20;
+VM1854:1 Uncaught ReferenceError: x is not defined
+    at <anonymous>:1:13
+(anonymous) @ VM1854:1Understand this error
+console.log(x);
+var x = 20;
+VM1865:1 undefined
+undefined

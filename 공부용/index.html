@@ -1,0 +1,55 @@
+<!doctype html>
+<!-- 문서의 유형을 정의 합니다. -->
+<html lang="ko">
+<head>
+    <!-- 해드태그는 문서의 정보를 나타내는 태그, 문서의 정보는 meta태그 이용함 -->
+    <meta charset="UTF-8">
+    <!-- charset => characterset의 약자, 컴퓨터가 인간의 언어를 이해하기 위해서 한국어 같은 어려운 문자를 이해하기 위해 utf-8을 써야한다 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 반응형 웹 디자인을 위한 meta태그 viewport= 화면 크기, width=device-width= 어떤장치냐에 따라 너비가 정해진다, initial-scale=1.0= 기본적인 크기 -->
+    <title>회원등록</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<!-- 화면의 뿌려줄 데이터 삽입을 한다.(글, 이미지) -->
+<!-- div태그는 div태그안에 또 다른 태그나 값을 넣기 전까지 영역과 공간을 가지지않는다. div태그는 블록요소 이다. -->
+    <div id="wrapper" class="wrapper">
+        <!-- form태그는 웹브라우저(프론트엔드)에서 웹서버(백앤드)로 데이터를 넘기고자 할 때 input태그와 같이 작성해주는 태그 -->
+        <form id="registrationForm" class="registrationForm">
+            <h2>회원등록</h2>
+            <div class="inputGroup">
+                <label for="nickname">사용자이름</label>
+                <input type="text" id="nickname" class="nicknameInput">
+                <span class="helperText">알림</span>
+                <!-- span 글씨 일라인 요소 -->
+            </div>
+                        <div class="inputGroup">
+                <label for="userEmail">이메일주소</label>
+                <input type="email" id="email" class="emailInput"> <!-- oninput="updateHelperText()"> 
+                <p id="email-helper" style="color: gray;">Please Input Email</p>  -->
+                <span class="helperText">알림</span>
+            </div>
+                        <div class="inputGroup">
+                <label for=" userpassword">비밀번호</label>
+                <input type="password" id="password" class="passwordInput">
+                <span class="helperText">알림</span>
+            </div>
+                        <div class="inputGroup">
+                <label for="comfirmpassword">비밀번호 확인</label>
+                <input type="password" id="comfirmpassword" class="comfirmpasswordInput">
+                <span class="helperText">알림</span>
+            </div>
+                        <div class="inputGroup">
+                <label for="phone">휴대폰 번호</label>
+                <input type="tel" id="phone" class="phoneInput">
+                <span class="helperText">010-1234-1234</span>
+            </div>
+            <button type="submit">등록완료</button></button>
+            
+        </form>
+
+    </div>
+</body>
+
+</html>
